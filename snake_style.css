@@ -1,0 +1,84 @@
+html, body{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    background: #ccd0ed;
+}
+div[id=canvassnake]{
+    height: 552px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 50%;
+    left: 50%;
+    border: solid 20px #5c547c;
+}
+
+
+div[id=barratexto]{
+    height: 30px;
+    width: 500px;
+    display: flex;
+    border-left:solid 1px black;
+    border-right: solid 1px black;
+    background-color: #989325;
+}
+div[id=opciones]{
+    display: flex;
+}
+div[id=opciones]{
+    display: flex;
+    background-color: #989325;
+}
+div[id=marcador]{
+    text-align: right;
+    background-color: #989325;
+    font-family: MS UI Gothic;
+    font-size: 2em;
+    color:#001600;
+}
+div[id=velocidad]{
+    font-size: 2em;
+    width: 1em;
+    height: 30px;
+}
+div[id=texto]{
+    height: 30px;
+    margin-top: 6px;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+button{
+    height: 20px;
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    background-color:#989325;
+}
+button[id=start]{
+    height: 20px;
+    width: 5em;
+    border-radius: 0%;
+    margin-left: 4em;
+    float: left;
+}
+canvas[id=snakecanvas]{
+    background-color: #989325;
+}
+#barratexto>*{
+    flex-basis: 100%;
+}
+.margen{
+    width: 500px;
+    background-color:#989325;
+    height: 10px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+
+
+

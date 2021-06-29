@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./snake_style.css">
+    <script src="./snake.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Game window -->
+    <div id="canvassnake">
+        <!-- Upper margin -->
+        <div class="margen"></div>
+        <!-- Text bar -->
+        <div id="barratexto">
+            <!-- Speed options -->
+            <div id="opciones">  
+                <div id="texto"><b>Velocidad:</b></div>
+                <button type="button" onclick="decremento()">&#9660;</button>
+                <div id="velocidad">08</div>
+                <button type="button" onclick="incremento()">&#9650;</button>
+
+            </div>
+            <!-- Start button with score -->
+            <div >
+                <button type="button" id="start" onclick="inicio()"><b>START</b></button>
+                <div id="marcador">0</div>
+            </div>
+        </div>
+        <!-- Lower margin -->
+        <div class="margen"></div>
+        <!-- Game canvas -->
+        <canvas id="snakecanvas" width="500" height="500" style="border:solid 1px black" ></canvas>
+    </div>
+
+</body>
+</html>
